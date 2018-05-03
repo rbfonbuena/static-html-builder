@@ -1,6 +1,6 @@
 # Static HTML site page builder
 
-## Technologies used
+### Technologies used
 
 - Gulp
 - Handlebars
