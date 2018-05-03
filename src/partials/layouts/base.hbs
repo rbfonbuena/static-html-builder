@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>{{#if title}}{{title}}{{else}}Home{{/if}}</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    {{#> head-block}}
+        {{!-- Custom content added within <head></head> --}}
+    {{/head-block}}
+</head>
+<body>
+    {{#> hero-block}}
+        {{!-- Hero block --}}
+    {{/hero-block}}
+
+    {{#> footer-block}}
+        {{!-- Footer partial --}}
+        {{> includes/footer}}
+    {{/footer-block}}
+
+    {{#> script-block}}
+        {{!-- Custom JS --}}
+    {{/script-block}}
+</body>
+</html>
